@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F06771301E51A41800062C2C /* FriendCycleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F067712F1E51A41800062C2C /* FriendCycleTableViewController.swift */; };
+		F06771321E51A51400062C2C /* FriendCycleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06771311E51A51400062C2C /* FriendCycleTableViewCell.swift */; };
+		F06771341E51B06100062C2C /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06771331E51B06100062C2C /* Friend.swift */; };
 		F0701CAE1E24AC34002994CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0701CAD1E24AC34002994CB /* AppDelegate.swift */; };
 		F0701CB01E24AC34002994CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0701CAF1E24AC34002994CB /* ViewController.swift */; };
 		F0701CB31E24AC34002994CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0701CB11E24AC34002994CB /* Main.storyboard */; };
 		F0701CB51E24AC34002994CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0701CB41E24AC34002994CB /* Assets.xcassets */; };
 		F0701CB81E24AC34002994CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0701CB61E24AC34002994CB /* LaunchScreen.storyboard */; };
+		F0701CC11E24AC57002994CB /* XCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0701CC01E24AC57002994CB /* XCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F067712F1E51A41800062C2C /* FriendCycleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCycleTableViewController.swift; sourceTree = "<group>"; };
+		F06771311E51A51400062C2C /* FriendCycleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCycleTableViewCell.swift; sourceTree = "<group>"; };
+		F06771331E51B06100062C2C /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		F06771351E51B1DF00062C2C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		F0701CAA1E24AC34002994CB /* XCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0701CAD1E24AC34002994CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0701CAF1E24AC34002994CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,7 @@
 		F0701CB41E24AC34002994CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0701CB71E24AC34002994CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0701CB91E24AC34002994CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0701CC01E24AC57002994CB /* XCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +63,14 @@
 		F0701CAC1E24AC34002994CB /* XCache */ = {
 			isa = PBXGroup;
 			children = (
-				F0701CBF1E24AC3B002994CB /* New Group */,
+				F0701CBF1E24AC3B002994CB /* XCache */,
 				F0701CAD1E24AC34002994CB /* AppDelegate.swift */,
 				F0701CAF1E24AC34002994CB /* ViewController.swift */,
 				F0701CB11E24AC34002994CB /* Main.storyboard */,
+				F06771331E51B06100062C2C /* Friend.swift */,
+				F06771311E51A51400062C2C /* FriendCycleTableViewCell.swift */,
+				F067712F1E51A41800062C2C /* FriendCycleTableViewController.swift */,
+				F06771351E51B1DF00062C2C /* MyPlayground.playground */,
 				F0701CB41E24AC34002994CB /* Assets.xcassets */,
 				F0701CB61E24AC34002994CB /* LaunchScreen.storyboard */,
 				F0701CB91E24AC34002994CB /* Info.plist */,
@@ -65,11 +78,12 @@
 			path = XCache;
 			sourceTree = "<group>";
 		};
-		F0701CBF1E24AC3B002994CB /* New Group */ = {
+		F0701CBF1E24AC3B002994CB /* XCache */ = {
 			isa = PBXGroup;
 			children = (
+				F0701CC01E24AC57002994CB /* XCache.swift */,
 			);
-			name = "New Group";
+			name = XCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0701CB01E24AC34002994CB /* ViewController.swift in Sources */,
+				F0701CC11E24AC57002994CB /* XCache.swift in Sources */,
+				F06771301E51A41800062C2C /* FriendCycleTableViewController.swift in Sources */,
+				F06771341E51B06100062C2C /* Friend.swift in Sources */,
+				F06771321E51A51400062C2C /* FriendCycleTableViewCell.swift in Sources */,
 				F0701CAE1E24AC34002994CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +326,7 @@
 				F0701CBE1E24AC34002994CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

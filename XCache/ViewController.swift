@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var CacheLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +21,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func readCache(_ sender: Any) {
+        self.CacheLabel.text = XCache.returnCachSize()+"MB"
+    }
 
+    @IBAction func cleanCache(_ sender: Any) {
+        XCache.cleanCache { 
+            self.CacheLabel.text = XCache.returnCachSize()+"MB"
+        }
+    }
 }
 
